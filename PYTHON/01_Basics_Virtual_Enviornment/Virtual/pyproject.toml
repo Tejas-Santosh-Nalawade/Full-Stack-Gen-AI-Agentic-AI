@@ -1,12 +1,7 @@
 [project]
-name = "01-basics-virtual-enviornment"
+name = "virtual"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
-
-[tool.uv.workspace]
-members = [
-    "Virtual",
-]

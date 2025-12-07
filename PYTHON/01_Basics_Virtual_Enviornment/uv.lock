@@ -2,7 +2,18 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[manifest]
+members = [
+    "01-basics-virtual-enviornment",
+    "virtual",
+]
+
 [[package]]
 name = "01-basics-virtual-enviornment"
 version = "0.1.0"
 source = { virtual = "." }
+
+[[package]]
+name = "virtual"
+version = "0.1.0"
+source = { virtual = "Virtual" }
